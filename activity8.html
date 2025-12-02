@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Magazine</title>
+<style>
+  body { font-family: Arial; margin: 20px auto; max-width: 900px; }
+  header { text-align: center; }
+  nav a { margin: 0 8px; text-decoration: none; color: darkblue; }
+  .main, .sidebar { margin-top: 20px; }
+  .article img, .featured img { width: 100%; }
+  .featured, .article { margin-bottom: 20px; }
+  .subscribe { background: #eee; padding: 10px; }
+  input, button { width: 100%; padding: 6px; margin-top: 6px; }
+  button { background: darkblue; color: white; border: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Global Insight Magazine</h1>
+  <p>Your Source for Trusted News & Stories</p>
+  <nav>
+    <a href="#world">World</a>
+    <a href="#tech">Technology</a>
+    <a href="#health">Health</a>
+    <a href="#sports">Sports</a>
+    <a href="#subscribe">Subscribe</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- Main Column -->
+  <div class="main">
+
+    <div class="featured">
+      <h2>🌍 Featured Article</h2>
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="Featured Image">
+      <h3>Global Climate Change: What 2025 Looks Like</h3>
+      <p>The world is seeing rapid climate shifts. Scientists warn that immediate action is needed to prevent irreversible environmental damage...</p>
+    </div>
+
+    <h2 id="world">World News</h2>
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?w=800" alt="World News">
+      <h3>International Summit on Peace</h3>
+      <p>Global leaders gathered to discuss solutions for maintaining world peace and cooperation...</p>
+    </div>
+
+    <h2 id="tech">Technology</h2>
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800" alt="Tech">
+      <h3>AI Revolution: What’s Next?</h3>
+      <p>Artificial Intelligence continues to dominate global industries, bringing innovation and disruption...</p>
+    </div>
+
+    <h2 id="health">Health</h2>
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=800" alt="Health">
+      <h3>Mental Health Awareness</h3>
+      <p>Experts emphasize the importance of mental well-being and access to counseling resources...</p>
+    </div>
+
+    <h2 id="sports">Sports</h2>
+    <div class="article">
+      <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?w=800" alt="Sports">
+      <h3>Championship Finals: A Thrilling Game</h3>
+      <p>This year’s finals delivered intense competition, surprising twists, and unforgettable performances...</p>
+    </div>
+
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="subscribe" id="subscribe">
+      <h3>Subscribe for Weekly News</h3>
+      <p>Get updates delivered straight to your inbox!</p>
+      <input type="email" placeholder="Enter your email" required>
+      <button>Subscribe</button>
+    </div>
+
+    <div style="margin-top:20px;">
+      <h3>Popular Topics</h3>
+      <ul>
+        <li>Global Politics</li>
+        <li>Tech Innovations</li>
+        <li>Health & Wellness</li>
+        <li>Sports Highlights</li>
+        <li>Travel Stories</li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
